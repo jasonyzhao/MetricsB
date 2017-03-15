@@ -1,0 +1,73 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            adj log ROI   R-squared:                       0.638
+Model:                            OLS   Adj. R-squared:                  0.636
+Method:                 Least Squares   F-statistic:                     398.3
+Date:                Wed, 15 Mar 2017   Prob (F-statistic):               0.00
+Time:                        21:40:42   Log-Likelihood:                -22272.
+No. Observations:               10000   AIC:                         4.463e+04
+Df Residuals:                    9955   BIC:                         4.496e+04
+Df Model:                          44                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================================
+                                                 coef    std err          t      P>|t|      [95.0% Conf. Int.]
+--------------------------------------------------------------------------------------------------------------
+const                                         -4.0202      5.895     -0.682      0.495       -15.576     7.536
+Year                                          -0.0028      0.003     -0.954      0.340        -0.009     0.003
+Production Budget                          -4.444e-08   1.65e-09    -26.916      0.000     -4.77e-08 -4.12e-08
+Opening Weekend Theaters                       0.0015    3.2e-05     48.390      0.000         0.001     0.002
+Opening Weekend Revenue                            -0          0        nan        nan            -0         0
+Jumps                                         -0.0073      0.004     -1.823      0.068        -0.015     0.001
+Runtime                                        0.0060      0.002      2.905      0.004         0.002     0.010
+IMDb Score                                     1.2173      0.024     51.333      0.000         1.171     1.264
+Month                                         -0.0587      0.007     -8.451      0.000        -0.072    -0.045
+Release Lag                                    0.0038      0.001      7.237      0.000         0.003     0.005
+Theatrical Distributor_20th Century Fox        0.3828      0.143      2.683      0.007         0.103     0.663
+Theatrical Distributor_Lionsgate               0.0155      0.118      0.131      0.896        -0.216     0.247
+Theatrical Distributor_MGM                    -0.1100      0.149     -0.739      0.460        -0.402     0.182
+Theatrical Distributor_Magnolia Pictures       1.1700      0.200      5.845      0.000         0.778     1.562
+Theatrical Distributor_Miramax                 0.0945      0.180      0.524      0.600        -0.259     0.448
+Theatrical Distributor_Miramax/Dimension            0          0        nan        nan             0         0
+Theatrical Distributor_New Line                1.1171      0.133      8.398      0.000         0.856     1.378
+Theatrical Distributor_Other                  -0.4433      0.090     -4.911      0.000        -0.620    -0.266
+Theatrical Distributor_Paramount Pictures      1.1167      0.117      9.534      0.000         0.887     1.346
+Theatrical Distributor_Sony Pictures          -0.1203      0.106     -1.133      0.257        -0.328     0.088
+Theatrical Distributor_Universal                    0          0        nan        nan             0         0
+Theatrical Distributor_Warner Bros.            1.0530      0.111      9.509      0.000         0.836     1.270
+Theatrical Distributor_Weinstein/Dimension    -0.1985      0.196     -1.014      0.311        -0.582     0.185
+Source_Based on Comic/Graphic Novel           -0.2570      0.281     -0.913      0.361        -0.809     0.295
+Source_Based on Factual Book/Article          -0.6597      0.353     -1.870      0.061        -1.351     0.032
+Source_Based on Fiction Book/Short Story      -0.3744      0.125     -2.999      0.003        -0.619    -0.130
+Source_Based on Folk Tale/Legend/Fairytale    -4.6894      0.269    -17.416      0.000        -5.217    -4.162
+Source_Based on Game                           0.8418      0.185      4.554      0.000         0.479     1.204
+Source_Based on Real Life Events               2.4264      0.395      6.139      0.000         1.652     3.201
+Source_Based on Short Film                    -0.8567      0.342     -2.505      0.012        -1.527    -0.186
+Source_Based on TV                            -1.3648      0.520     -2.625      0.009        -2.384    -0.346
+Source_Compilation                            -2.0103      0.488     -4.117      0.000        -2.968    -1.053
+Source_Original Screenplay                    -0.2408      0.103     -2.333      0.020        -0.443    -0.039
+Source_Remake                                 -0.6578      0.127     -5.169      0.000        -0.907    -0.408
+Source_Spin-Off                               -0.1319      0.252     -0.522      0.601        -0.627     0.363
+Creative Type_Contemporary Fiction             0.8344      0.124      6.723      0.000         0.591     1.078
+Creative Type_Dramatization                   -1.4128      0.416     -3.396      0.001        -2.228    -0.597
+Creative Type_Fantasy                          0.6280      0.124      5.055      0.000         0.384     0.872
+Creative Type_Historical Fiction               0.3000      0.195      1.537      0.124        -0.083     0.683
+Creative Type_Multiple Creative Types              -0          0        nan        nan            -0         0
+Creative Type_Science Fiction                 -0.0306      0.137     -0.224      0.823        -0.298     0.237
+Rating_0                                      -4.0369      0.165    -24.533      0.000        -4.359    -3.714
+Rating_nc17                                    2.6022      0.520      5.005      0.000         1.583     3.621
+Rating_nr                                           0          0        nan        nan             0         0
+Rating_pg                                      1.4932      0.236      6.328      0.000         1.031     1.956
+Rating_pg13                                    1.0089      0.139      7.261      0.000         0.737     1.281
+Rating_r                                       0.1619      0.125      1.293      0.196        -0.084     0.408
+Rating_tv14                                   -3.4461      0.452     -7.629      0.000        -4.332    -2.561
+==============================================================================
+Omnibus:                      450.460   Durbin-Watson:                   1.989
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1091.666
+Skew:                          -0.261   Prob(JB):                    8.86e-238
+Kurtosis:                       4.532   Cond. No.                          nan
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is -1.04e-11. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
